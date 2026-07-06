@@ -48,6 +48,8 @@ class CvssTest extends TestCase
             ['CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:L/VI:L/VA:L/SC:N/SI:N/SA:N/S:N/AU:N/R:A/V:D/RE:L/U:Clear', 6.9, 6.9, 6.9],
             ['CVSS:4.0/AV:N/AC:H/AT:N/PR:N/UI:A/VC:H/VI:H/VA:H/SC:N/SI:N/SA:N/E:X/CR:X/IR:X/AR:X/MAV:X/MAC:X/MAT:X/MPR:X/MUI:X/MVC:X/MVI:X/MVA:X/MSC:X/MSI:X/MSA:X/S:X/AU:X/R:X/V:X/RE:X/U:X', 7.5, 7.5, 7.5],
             ['CVSS:4.0/AV:N/AC:L/AT:N/PR:N/UI:N/VC:N/VI:N/VA:N/SC:N/SI:N/SA:N', 0, 0, 0],
+            // Regression test for #20
+            ['CVSS:4.0/AV:N/AC:L/AT:P/PR:H/UI:P/VC:L/VI:H/VA:L/SC:H/SI:H/SA:H/E:P/MAV:L/MAC:H/MAT:P/MPR:N/MUI:P', 5.6, 5.6, 5.6],
 
 
             ['CVSS:3.1/AV:A/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H', 8.0, 8.0, 8.0],
